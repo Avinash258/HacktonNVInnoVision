@@ -1,0 +1,127 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : OpenJDK Runtime Environment
+java.version         : 11.0.16.1
+java.home            : C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Nov 17 13:09:26 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:pact] [TestCase: TC01_DragandDrop] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-28] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-7-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119
+[pool-7-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119)
+[pool-7-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Avinash.sharma\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 28509
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-17 13:09:29:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @17-Nov-2023 13:09:29.029
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+===================================================================================================
+
+Step:2   | Object: Geolocation Set browser geoloc | Action: waitForElementToBePresent | Input:*********  | Conditon:  | @17-Nov-2023 13:09:32.032
+Using @relative_xpath [//a[18]/div], Object 'Geolocation Set browser geoloc' Found in 31 ms
+[PASS]   | 'Geolocation Set browser geoloc' Element Present in the stipulated time
+
+===================================================================================================
+
+Step:3   | Object: Geolocation Set browser geoloc | Action: Click | Input:*********  | Conditon:  | @17-Nov-2023 13:09:36.036
+Using @relative_xpath [//a[18]/div], Object 'Geolocation Set browser geoloc' Found in 36 ms
+[DONE]   | Clicking on Geolocation Set browser geoloc
+
+===================================================================================================
+
+Step:4   | Object: Get Location | Action: waitForElementToBeVisible | Input:*********  | Conditon:  | @17-Nov-2023 13:09:37.037
+Using @id [get-location], Object 'Get Location' Found in 38 ms
+[DONE]   | 'Get Location' Element becomes visible in stipulated time
+
+===================================================================================================
+
+Step:5   | Object: Get Location | Action: Click | Input:*********  | Conditon:  | @17-Nov-2023 13:09:37.037
+Using @id [get-location], Object 'Get Location' Found in 27 ms
+[DONE]   | Clicking on Get Location
+
+===================================================================================================
+
+Step:6   | Object: Bhopal, India | Action: waitForElementToBeInVisible | Input:*********  | Conditon:  | @17-Nov-2023 13:09:37.037
+Using @id [location-info], Object 'Bhopal, India' Found in 28 ms
+2023-11-17 13:09:48:11S +0530 [OFF ] com.NewVision.InnoVision.engine.commands.WaitFor waitFor:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition to not be valid: visibility of [[ChromeDriver: chrome on WINDOWS (143d283fd1c96f78ff3b539a9cd43098)] -> id: location-info] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AVINAS~1.SHA\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 143d283fd1c96f78ff3b539a9cd43098
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NewVision.InnoVision.engine.commands.WaitFor.waitFor(WaitFor.java:255)
+	at com.NewVision.InnoVision.engine.commands.WaitFor.waitFor(WaitFor.java:233)
+	at com.NewVision.InnoVision.engine.commands.WaitFor.waitFor(WaitFor.java:226)
+	at com.NewVision.InnoVision.engine.commands.WaitFor.waitForElement(WaitFor.java:219)
+	at com.NewVision.InnoVision.engine.commands.WaitFor.waitForElementToBeInVisible(WaitFor.java:94)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+===================================================================================================
+
+Step:7   | Object: Bhopal, India | Action: assertElementTextContains | Input:*********  | Conditon:  | @17-Nov-2023 13:09:48.048
+Using @id [location-info], Object 'Bhopal, India' Found in 29 ms
+[PASS]   | Bhopal, India's Text CONTAINS Bhopal, India 
+
+===================================================================================================
+
+Step:8   | Object: Bhopal, India | Action: Click | Input:*********  | Conditon:  | @17-Nov-2023 13:09:48.048
+Using @id [location-info], Object 'Bhopal, India' Found in 32 ms
+[DONE]   | Clicking on Bhopal, India
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:22
+-----------------------------------------------------
+
+Run Finished on Fri Nov 17 13:09:49 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 17-Nov-2023 13-09-26
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:22
+ReportPath           : file:///C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 13-09-26\summary.html
+-----------------------------------------------------
+[Thread-28] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 13-09-26\summary.html
+[Thread-28] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 13-09-26\summary.html]

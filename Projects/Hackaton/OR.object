@@ -1,0 +1,203 @@
+<Root type="OR" ref="Hackaton">
+  <Page title="Playground for the QA automation engineers" ref="Playground">
+    <ObjectGroup ref="Geolocation Set browser geoloc">
+      <Object frame="" ref="Geolocation Set browser geoloc">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//a[18]/div" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/main/div[3]/a[18]/div" ref="xpath" pref="6"/>
+        <Property value="card-content" ref="class" pref="7"/>
+        <Property value="html > body.dark-theme > main > div.row.row-max-2 > a.card.card-course > div.card-content" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div class=&quot;card-content&quot;>&#xa;&lt;div class=&quot;text-center&quot;>&#xa;&lt;img src=&quot;/img/geolocation.png&quot;>&#xa;&lt;/div>&#xa;&lt;h3>Geolocation&lt;/h3>&#xa;&lt;p>&#xa;Set browser geolocation to longitude: -122.03118 and latitude: 37.33182 and assert&#xa;Cupertino&#xa;&lt;/p>&#xa;&lt;span class=&quot;tag tag-sm tag-html&quot;>#html&lt;/span>&#xa;&lt;span class=&quot;tag tag-sm tag-css&quot;>#vanilla-css&lt;/span>&#xa;&lt;span class=&quot;tag tag-sm tag-javascript&quot;>#vanilla-javascript&lt;/span>&#xa;&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sortable List">
+      <Object frame="" ref="Sortable List">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Sortable List']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/main/div[3]/a[5]/div/h3" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body.dark-theme > main > div.row.row-max-2 > a.card.card-course > div.card-content > h3" ref="css" pref="8"/>
+        <Property value="h3" ref="type" pref="9"/>
+        <Property value="&lt;h3>Sortable List&lt;/h3>" ref="outerHTML" pref="10"/>
+        <Property value="h3" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Test Geolocation" ref="Test">
+    <ObjectGroup ref="Get Location">
+      <Object frame="" ref="Get Location">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="get-location" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Get Location']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/button" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#get-location" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button id=&quot;get-location&quot;>Get Location&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Bhopal, India">
+      <Object frame="" ref="Bhopal, India">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="location-info" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Bhopal, India']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#location-info" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="&lt;div id=&quot;location-info&quot;>Bhopal, India&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="div" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Test Sortable List" ref="Test1">
+    <ObjectGroup ref="FirstElement">
+      <Object frame="" ref="FirstElement">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'#X')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Michael Bloomberg&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstPosition">
+      <Object frame="" ref="FirstPosition">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//li[@data-index='#Y']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/main/ul/li[2]/div/p" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li:nth-of-type(1) > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;li data-index=&quot;8&quot;>&#xa;        &lt;span class=&quot;number&quot;>9&lt;/span>&#xa;        &#xa;      &lt;div class=&quot;draggable&quot; draggable=&quot;true&quot;>&#xa;          &lt;p class=&quot;person-name&quot;>Larry Page&lt;/p>&#xa;          &lt;i class=&quot;fas fa-grip-lines&quot; aria-hidden=&quot;true&quot;>&lt;/i>&#xa;        &lt;/div>&lt;/li>" ref="outerHTML" pref="10"/>
+        <Property value="li" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SecoundElement">
+      <Object frame="" ref="SecoundElement">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="ThirdElement">
+      <Object frame="" ref="ThirdElement">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FourElement">
+      <Object frame="" ref="FourElement">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstElement Copy(4)">
+      <Object frame="" ref="FirstElement Copy(4)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstElement Copy(5)">
+      <Object frame="" ref="FirstElement Copy(5)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstElement Copy(6)">
+      <Object frame="" ref="FirstElement Copy(6)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="FirstElement Copy(7)">
+      <Object frame="" ref="FirstElement Copy(7)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[contains(text(),'Larry Elli')]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/main/ul/li/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="person-name" ref="class" pref="7"/>
+        <Property value="html > body > main > #draggable-list > li > div.draggable > p.person-name" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;person-name&quot;>Larry Ellison&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,132 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : OpenJDK Runtime Environment
+java.version         : 11.0.16.1
+java.home            : C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Nov 17 12:57:57 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:AccessibilityTesting] [TestCase: AccessibilityActions] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-9] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-4-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119
+[pool-4-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119)
+[pool-4-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Avinash.sharma\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 5100
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-17 12:58:04:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @17-Nov-2023 12:58:05.005
+[DONE]   | Opened Url: https://www.bing.com
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: testAccessibility | Input:*********  | Conditon:  | @17-Nov-2023 12:58:07.007
+[WARNING]   | Bing All - Failed 4 violations found 
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: testAccessibility | Input:*********  | Conditon:  | @17-Nov-2023 12:58:08.008
+[DONE]   | Bing Include - Passed all the recommendations by aXe
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: testAccessibility | Input:*********  | Conditon:  | @17-Nov-2023 12:58:08.008
+[WARNING]   | Bing Exclude - Failed 4 violations found 
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: testAccessibility | Input:*********  | Conditon:  | @17-Nov-2023 12:58:08.008
+[WARNING]   | Bing InExclude - Failed 1 violations found 
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: testAccessibility | Input:*********  | Conditon:  | @17-Nov-2023 12:58:09.009
+[WARNING]   | BingOptions - Failed 3 violations found 
+
+===================================================================================================
+
+Step:7   | Object: BingMenu | Action: testAccessibilityElement | Input:*********  | Conditon:  | @17-Nov-2023 12:58:09.009
+Element could not be identified with [id] : [sc_hdu]
+2023-11-17 12:58:20:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 144
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:363)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Couldn't find Object 'BingMenu' in stipulated Time '10' Seconds
+2023-11-17 12:58:20:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.NewVision.InnoVision.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:148)
+	at com.NewVision.InnoVision.engine.commands.Command.isDriverAlive(Command.java:140)
+	at com.NewVision.InnoVision.engine.commands.General.checkIfDriverIsAlive(General.java:37)
+	at com.NewVision.InnoVision.engine.commands.General.elementPresent(General.java:45)
+	at com.NewVision.InnoVision.engine.commands.aXe.Accessibility.testAccessibilityElement(Accessibility.java:54)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 7
+Passed Steps         : 2
+Failed Steps         : 5
+Time Taken           : 00:00:21
+-----------------------------------------------------
+
+Run Finished on Fri Nov 17 12:58:20 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 17-Nov-2023 12-57-57
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:22
+ReportPath           : file:///C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\DemoProject\Results\TestDesign\AccessibilityTesting\AccessibilityActions\17-Nov-2023 12-57-57\summary.html
+-----------------------------------------------------

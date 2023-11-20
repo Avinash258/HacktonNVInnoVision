@@ -1,0 +1,41 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  11.0.16.1
+java.home                                  :  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Nov 17 14:44:46 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [TC02_Sorting]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://qaplayground.dev/  |  Condition:  | @17-Nov-2023 14:44:50.050
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+
+===================================================================================================
+
+Step:2  |  Object:Sortable List  |  Action:Click  |  Input:   |  Condition:  | @17-Nov-2023 14:44:50.050
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : pact:TC02_Sorting
+Executed Steps       : 2
+Passed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:00:04
+---------------------------------------------------
+

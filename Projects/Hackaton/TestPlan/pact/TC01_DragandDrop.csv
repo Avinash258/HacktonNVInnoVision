@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://qaplayground.dev/,,
+2,Geolocation Set browser geoloc,"Click the [<Object>] ",waitForElementToBePresent,,,Playground
+3,Geolocation Set browser geoloc,"Click the [<Object>] ",Click,,,Playground
+4,Get Location,"Click the [<Object>] ",waitForElementToBeVisible,,,Test
+5,Get Location,"Click the [<Object>] ",Click,,,Test
+6,Browser,Assert if [<Object>]'s Text Contains [<Data>],pause,@10000,,Test
+7,"Bhopal, India",Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,"@Bhopal, India",,Test
+8,"Bhopal, India","Click the [<Object>] ",Click,,,Test

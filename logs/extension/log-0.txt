@@ -1,0 +1,15 @@
+2023-11-17 13:01:39:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-11-17 13:01:39:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+2023-11-17 13:04:34:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-17 14:06:48:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-11-17 14:06:48:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+2023-11-17 14:06:57:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-17 14:07:00:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-11-17 14:07:00:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+2023-11-17 14:07:04:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-17 14:07:10:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-11-17 14:07:10:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+2023-11-17 14:07:16:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+2023-11-17 14:07:30:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-11-17 14:07:30:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+2023-11-17 14:10:24:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped

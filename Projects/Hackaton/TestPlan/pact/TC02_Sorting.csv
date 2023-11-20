@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://qaplayground.dev/,,
+2,Sortable List,"Click the [<Object>] ",Click,,,Playground
+3,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+4,Browser,Wait for [<Data>] milli seconds,pause,@2,Start Param,
+5,FirstElement,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,TestData:List,"#X",Test1
+6,FirstPosition,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,TestData:Position,"#Y",Test1
+7,FirstElement,Assert if [<Object>]'s Text StartsWith [<Data>],dragToAndDropElement,@Test1:FirstPosition,,Test1
+8,Browser,Wait for [<Data>] milli seconds,pause,@2,End Param,

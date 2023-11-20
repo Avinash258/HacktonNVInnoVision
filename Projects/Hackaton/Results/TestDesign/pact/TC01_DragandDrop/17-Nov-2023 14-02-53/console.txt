@@ -1,0 +1,160 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : OpenJDK Runtime Environment
+java.version         : 11.0.16.1
+java.home            : C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Nov 17 14:02:53 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:pact] [TestCase: TC01_DragandDrop] [Description: Test Run] [Browser: Edge] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-36] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Edge
+Launching Local Driver
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 119.0.2151.58 (resolved driver for Edge 119)
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgedriver.azureedge.net/119.0.2151.58/edgedriver_win64.zip
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+[pool-11-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Avinash.sharma\.cache\selenium\msedgedriver\win64\119.0.2151.58\msedgedriver.exe
+Starting Microsoft Edge WebDriver 119.0.2151.58 (33e26e7eb4fba096f2f29de91f90d34b8597be96) on port 9479
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+2023-11-17 14:03:07:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task onError:session not created: Microsoft Edge failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7196325B2+60402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195B7302+253666]
+	(No symbol) [0x00007FF719389C99]
+	(No symbol) [0x00007FF7193C2FB2]
+	(No symbol) [0x00007FF7193BD18B]
+	(No symbol) [0x00007FF71940423F]
+	(No symbol) [0x00007FF7193FB863]
+	(No symbol) [0x00007FF7193CC585]
+	(No symbol) [0x00007FF7193CB993]
+	(No symbol) [0x00007FF7193CCD14]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF719813454+1161924]
+	(No symbol) [0x00007FF71944E5F6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF71950B083+37459]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF719502C4D+3613]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF719812194+1157124]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195C1658+295480]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195BCB24+276228]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195BCC52+276530]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195AFA41+222753]
+	BaseThreadInitThunk [0x00007FFA82CA7344+20]
+	RtlUserThreadStart [0x00007FFA846A26B1+33]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: Microsoft Edge failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7196325B2+60402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195B7302+253666]
+	(No symbol) [0x00007FF719389C99]
+	(No symbol) [0x00007FF7193C2FB2]
+	(No symbol) [0x00007FF7193BD18B]
+	(No symbol) [0x00007FF71940423F]
+	(No symbol) [0x00007FF7193FB863]
+	(No symbol) [0x00007FF7193CC585]
+	(No symbol) [0x00007FF7193CB993]
+	(No symbol) [0x00007FF7193CCD14]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF719813454+1161924]
+	(No symbol) [0x00007FF71944E5F6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF71950B083+37459]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF719502C4D+3613]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF719812194+1157124]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195C1658+295480]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195BCB24+276228]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195BCC52+276530]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7195AFA41+222753]
+	BaseThreadInitThunk [0x00007FFA82CA7344+20]
+	RtlUserThreadStart [0x00007FFA846A26B1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:130)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:220)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:169)
+	at com.NewVision.InnoVision.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:159)
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.NewVision.InnoVision.engine.core.Task.launchBrowser(Task.java:155)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:125)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2023-11-17 14:03:07:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task run:null
+java.lang.NullPointerException
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.NewVision.InnoVision.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:164)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:192)
+	at com.NewVision.InnoVision.engine.core.Task.onError(Task.java:180)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:137)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:14
+-----------------------------------------------------
+
+Run Finished on Fri Nov 17 14:03:07 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 17-Nov-2023 14-02-53
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:14
+ReportPath           : file:///C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 14-02-53\summary.html
+-----------------------------------------------------
+[Thread-36] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 14-02-53\summary.html
+[Thread-36] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\Results\TestDesign\pact\TC01_DragandDrop\17-Nov-2023 14-02-53\summary.html]

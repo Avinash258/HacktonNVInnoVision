@@ -1,0 +1,628 @@
+2023-10-25 21:31:14:10S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-10-25 21:31:14:10S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-10-25 21:31:15:10S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-10-25 21:31:19:10S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-17 12:57:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.Main main:Launching InnoVision IDE
+light
+2023-11-17 12:57:34:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 12:57:36:11S +0530 [INFO] com.NewVision.InnoVision.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-11-17 12:57:39:11S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2023-11-17 12:57:57:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 12:58:34:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2023-11-17 12:58:34:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2023-11-17 13:01:21:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestPlan\NewScenario Renamed to pact
+2023-11-17 13:01:21:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [pact]
+2023-11-17 13:01:21:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [pact]
+2023-11-17 13:01:35:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestPlan\pact\NewTestCase.csv Renamed to TC01_DragandDrop.csv
+2023-11-17 13:01:35:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC01_DragandDrop]
+2023-11-17 13:01:35:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC01_DragandDrop]
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @247098ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 13:01:39:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0
+2023-11-17 13:01:39:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.16.1+1-LTS
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@609415ef{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@f138c5b(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@103122b0[provider=null,keyStore=jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 43883
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@66157df6{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @247342ms
+2023-11-17 13:01:40:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+2023-11-17 13:03:00:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://qaplayground.dev/
+2023-11-17 13:03:31:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Geolocation Set browser geoloc
+2023-11-17 13:03:31:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Geolocation Set browser geoloc] - Click - null
+2023-11-17 13:03:40:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Get Location
+2023-11-17 13:03:40:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Get Location] - Click - null
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - assertElementTextContains - @Bhopal, India
+2023-11-17 13:04:16:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test
+Object : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - Click - null
+2023-11-17 13:04:16:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test
+Object : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - Click - null
+2023-11-17 13:04:16:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test
+Object : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - Click - null
+2023-11-17 13:04:16:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test
+Object : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - Click - null
+2023-11-17 13:04:16:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test
+Object : Bhopal, India
+2023-11-17 13:04:16:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Bhopal, India] - Click - null
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@66157df6{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@609415ef{/,null,STOPPED}
+2023-11-17 13:04:34:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 13:06:00:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 13:08:11:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 13:09:26:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 13:12:41:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 13:13:15:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:02:07:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:02:53:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:04:47:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:06:18:11S +0530 [SEVERE] com.NewVision.InnoVision.datalib.component.utils.FileUtils getRecords:File [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestPlan\pact\NewTestCase.csv] doesn't exist
+2023-11-17 14:06:41:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestPlan\pact\NewTestCase.csv Renamed to TC02_Sorting.csv
+2023-11-17 14:06:41:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC02_Sorting]
+2023-11-17 14:06:41:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC02_Sorting]
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:06:48:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0
+2023-11-17 14:06:48:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.16.1+1-LTS
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7b146484{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@532a87cb(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@7ff032bf[provider=null,keyStore=jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1fcc336{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @4156891ms
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 8147
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Exception in thread "AWT-EventQueue-0" org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 119.0.6045.159 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: EmptyDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D569A3+2582947]
+	Ordinal0 [0x00CEA6D1+2139857]
+	Ordinal0 [0x00BE3A98+1063576]
+	Ordinal0 [0x00C033B8+1192888]
+	Ordinal0 [0x00BFF235+1176117]
+	Ordinal0 [0x00BFC9E1+1165793]
+	Ordinal0 [0x00C2CFFF+1363967]
+	Ordinal0 [0x00C2CC2A+1362986]
+	Ordinal0 [0x00C28366+1344358]
+	Ordinal0 [0x00C05176+1200502]
+	Ordinal0 [0x00C06066+1204326]
+	GetHandleVerifier [0x00EFBE02+1675858]
+	GetHandleVerifier [0x00FB036C+2414524]
+	GetHandleVerifier [0x00DEBB01+560977]
+	GetHandleVerifier [0x00DEA8D3+556323]
+	Ordinal0 [0x00CF020E+2163214]
+	Ordinal0 [0x00CF5078+2183288]
+	Ordinal0 [0x00CF51C0+2183616]
+	Ordinal0 [0x00CFEE1C+2223644]
+	BaseThreadInitThunk [0x769BFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F17C3E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver.chormeExtension(EmptyDriver.java:154)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.RecorderDialog.toggleRecorder(RecorderDialog.java:62)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.record(TestCaseComponent.java:411)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.actionPerformed(TestCaseComponent.java:322)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1fcc336{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7b146484{/,null,STOPPED}
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:06:57:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:07:00:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0
+2023-11-17 14:07:00:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.16.1+1-LTS
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@392259cc{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1505c59a(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@1bfb1326[provider=null,keyStore=jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@10fb6586{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @4168378ms
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 38164
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Exception in thread "AWT-EventQueue-0" org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 119.0.6045.159 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: EmptyDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D569A3+2582947]
+	Ordinal0 [0x00CEA6D1+2139857]
+	Ordinal0 [0x00BE3A98+1063576]
+	Ordinal0 [0x00C033B8+1192888]
+	Ordinal0 [0x00BFF235+1176117]
+	Ordinal0 [0x00BFC9E1+1165793]
+	Ordinal0 [0x00C2CFFF+1363967]
+	Ordinal0 [0x00C2CC2A+1362986]
+	Ordinal0 [0x00C28366+1344358]
+	Ordinal0 [0x00C05176+1200502]
+	Ordinal0 [0x00C06066+1204326]
+	GetHandleVerifier [0x00EFBE02+1675858]
+	GetHandleVerifier [0x00FB036C+2414524]
+	GetHandleVerifier [0x00DEBB01+560977]
+	GetHandleVerifier [0x00DEA8D3+556323]
+	Ordinal0 [0x00CF020E+2163214]
+	Ordinal0 [0x00CF5078+2183288]
+	Ordinal0 [0x00CF51C0+2183616]
+	Ordinal0 [0x00CFEE1C+2223644]
+	BaseThreadInitThunk [0x769BFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F17C3E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver.chormeExtension(EmptyDriver.java:154)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.RecorderDialog.toggleRecorder(RecorderDialog.java:62)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.record(TestCaseComponent.java:411)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.actionPerformed(TestCaseComponent.java:322)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@10fb6586{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@392259cc{/,null,STOPPED}
+2023-11-17 14:07:04:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:07:10:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0
+2023-11-17 14:07:10:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.16.1+1-LTS
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@30b28f86{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@41cc8488(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@abc6324[provider=null,keyStore=jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7c144da6{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @4179179ms
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 28077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Exception in thread "AWT-EventQueue-0" org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 119.0.6045.159 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BLAVINASHSHARMA', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: EmptyDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D569A3+2582947]
+	Ordinal0 [0x00CEA6D1+2139857]
+	Ordinal0 [0x00BE3A98+1063576]
+	Ordinal0 [0x00C033B8+1192888]
+	Ordinal0 [0x00BFF235+1176117]
+	Ordinal0 [0x00BFC9E1+1165793]
+	Ordinal0 [0x00C2CFFF+1363967]
+	Ordinal0 [0x00C2CC2A+1362986]
+	Ordinal0 [0x00C28366+1344358]
+	Ordinal0 [0x00C05176+1200502]
+	Ordinal0 [0x00C06066+1204326]
+	GetHandleVerifier [0x00EFBE02+1675858]
+	GetHandleVerifier [0x00FB036C+2414524]
+	GetHandleVerifier [0x00DEBB01+560977]
+	GetHandleVerifier [0x00DEA8D3+556323]
+	Ordinal0 [0x00CF020E+2163214]
+	Ordinal0 [0x00CF5078+2183288]
+	Ordinal0 [0x00CF51C0+2183616]
+	Ordinal0 [0x00CFEE1C+2223644]
+	BaseThreadInitThunk [0x769BFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F17C3E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.NewVision.InnoVision.engine.drivers.customWebDriver.EmptyDriver.chormeExtension(EmptyDriver.java:154)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.RecorderDialog.toggleRecorder(RecorderDialog.java:62)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.record(TestCaseComponent.java:411)
+	at com.NewVision.InnoVision.ide.main.mainui.components.testdesign.testcase.TestCaseComponent.actionPerformed(TestCaseComponent.java:322)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7c144da6{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@30b28f86{/,null,STOPPED}
+2023-11-17 14:07:16:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:07:18:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:07:30:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer startRecord:Launching Server for Record
+Current Directory: C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0
+2023-11-17 14:07:30:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.16.1+1-LTS
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1767477f{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@482b1360(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@4616cfb8[provider=null,keyStore=jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@43b0cc9e{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @4199000ms
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 47077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-17 14:07:32:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+2023-11-17 14:08:31:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://qaplayground.dev/
+2023-11-17 14:08:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sortable List
+2023-11-17 14:08:34:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Sortable List] - Click - null
+2023-11-17 14:09:35:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Larry Page
+2023-11-17 14:09:35:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Larry Page] - assertElementTextStartsWith - @Larry Page
+2023-11-17 14:09:35:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Test1
+Object : Larry Page
+2023-11-17 14:09:35:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Larry Page] - Click - null
+2023-11-17 14:10:09:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Jeff Bezos
+2023-11-17 14:10:09:11S +0530 [INFO] com.NewVision.InnoVision.ide.main.shr.web.Recorder addAsStep:Object[Jeff Bezos] - assertElementTextStartsWith - @Jeff Bezos
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@43b0cc9e{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1767477f{/,null,STOPPED}
+2023-11-17 14:10:24:11S +0530 [INFO] com.NewVision.InnoVision.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/Users/Avinash.sharma/Downloads/InnoVision-1.0-setup/InnoVision-1.0/lib/InnoVision-extensionconnect-1.0.jar!/localhost
+2023-11-17 14:17:39:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\Larry Page Renamed to FirstPosition
+2023-11-17 14:17:39:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstPosition\Larry Page Renamed to FirstPosition
+2023-11-17 14:17:46:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\Jeff Bezos Renamed to SecoundPosition
+2023-11-17 14:17:46:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\SecoundPosition\Jeff Bezos Renamed to SecoundPosition
+2023-11-17 14:18:45:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstPosition Renamed to FirstElement
+2023-11-17 14:18:45:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstElement\FirstPosition Renamed to FirstElement
+2023-11-17 14:20:57:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\SecoundPosition Renamed to FirstPosition
+2023-11-17 14:20:57:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstPosition\SecoundPosition Renamed to FirstPosition
+2023-11-17 14:21:14:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:21:42:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:25:55:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:26:40:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:30:44:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+Exception in thread "AWT-EventQueue-0" javax.swing.undo.CannotUndoException
+	at java.desktop/javax.swing.undo.AbstractUndoableEdit.undo(AbstractUndoableEdit.java:111)
+	at com.NewVision.InnoVision.datalib.undoredo.CellUndoableEdit.undo(CellUndoableEdit.java:52)
+	at com.NewVision.InnoVision.datalib.undoredo.GroupUndoableEdit.undo(GroupUndoableEdit.java:54)
+	at java.desktop/javax.swing.undo.UndoManager.undoTo(UndoManager.java:347)
+	at java.desktop/javax.swing.undo.UndoManager.tryUndoOrRedo(UndoManager.java:474)
+	at java.desktop/javax.swing.undo.UndoManager.undo(UndoManager.java:416)
+	at com.NewVision.InnoVision.datalib.undoredo.CommonUndoManager.undo(CommonUndoManager.java:94)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTable$3.actionPerformed(XTable.java:147)
+	at java.desktop/javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1810)
+	at java.desktop/javax.swing.JComponent.processKeyBinding(JComponent.java:2900)
+	at java.desktop/javax.swing.JTable.processKeyBinding(JTable.java:5264)
+	at java.desktop/javax.swing.JComponent.processKeyBindings(JComponent.java:2948)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2862)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6412)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:870)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1139)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1009)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:835)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4892)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Exception in thread "AWT-EventQueue-0" javax.swing.undo.CannotUndoException
+	at java.desktop/javax.swing.undo.AbstractUndoableEdit.undo(AbstractUndoableEdit.java:111)
+	at com.NewVision.InnoVision.datalib.undoredo.CellUndoableEdit.undo(CellUndoableEdit.java:52)
+	at com.NewVision.InnoVision.datalib.undoredo.GroupUndoableEdit.undo(GroupUndoableEdit.java:54)
+	at java.desktop/javax.swing.undo.UndoManager.undoTo(UndoManager.java:347)
+	at java.desktop/javax.swing.undo.UndoManager.tryUndoOrRedo(UndoManager.java:474)
+	at java.desktop/javax.swing.undo.UndoManager.undo(UndoManager.java:416)
+	at com.NewVision.InnoVision.datalib.undoredo.CommonUndoManager.undo(CommonUndoManager.java:94)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTable$3.actionPerformed(XTable.java:147)
+	at java.desktop/javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1810)
+	at java.desktop/javax.swing.JComponent.processKeyBinding(JComponent.java:2900)
+	at java.desktop/javax.swing.JTable.processKeyBinding(JTable.java:5264)
+	at java.desktop/javax.swing.JComponent.processKeyBindings(JComponent.java:2948)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2862)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6412)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:870)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1139)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1009)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:835)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4892)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-11-17 14:33:43:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstElement Copy(1) Renamed to SecoundElement
+2023-11-17 14:33:43:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\SecoundElement\FirstElement Copy(1) Renamed to SecoundElement
+2023-11-17 14:33:57:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstElement Copy(2) Renamed to ThirdElement
+2023-11-17 14:33:57:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\ThirdElement\FirstElement Copy(2) Renamed to ThirdElement
+2023-11-17 14:34:13:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FirstElement Copy(3) Renamed to FourElement
+2023-11-17 14:34:13:11S +0530 [INFO] com.NewVision.InnoVision.datalib.component.utils.FileUtils renameFile:C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\ObjectRepository\Test1\FourElement\FirstElement Copy(3) Renamed to FourElement
+2023-11-17 14:36:47:11S +0530 [WARNING] com.NewVision.InnoVision.ide.main.utils.table.XTableUtils pasteFromClipboard:Invalid Paste Type
+java.awt.datatransfer.UnsupportedFlavorException: Unicode String
+	at com.NewVision.InnoVision.ide.main.utils.dnd.TransferableNode.getTransferData(TransferableNode.java:56)
+	at java.desktop/sun.awt.datatransfer.TransferableProxy.getTransferData(TransferableProxy.java:73)
+	at com.NewVision.InnoVision.ide.main.utils.table.XTableUtils.pasteFromClipboard(XTableUtils.java:88)
+	at com.NewVision.InnoVision.ide.main.utils.keys.ClipboardKeyAdapter.keyReleased(ClipboardKeyAdapter.java:52)
+	at java.desktop/java.awt.AWTEventMulticaster.keyReleased(AWTEventMulticaster.java:268)
+	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6596)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2849)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6412)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:870)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1139)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1009)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:835)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4892)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestData\TestData.csv
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestData\TestData.csv]
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestData\TestData.csv
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton\TestData\TestData.csv]
+2023-11-17 14:43:49:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:44:46:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:45:03:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:50:22:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:52:07:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+2023-11-17 14:54:35:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton]
+2023-11-17 18:48:51:11S +0530 [INFO] com.NewVision.InnoVision.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\lib\InnoVision-engine-1.0.jar
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton
+[AWT-EventQueue-0] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\Avinash.sharma\Downloads\InnoVision-1.0-setup\InnoVision-1.0\Projects\Hackaton]

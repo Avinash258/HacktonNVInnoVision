@@ -1,0 +1,71 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  11.0.16.1
+java.home                                  :  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Nov 17 12:57:58 IST 2023
+
+Scenario         :  [AccessibilityTesting]
+TestCase         :  [AccessibilityActions]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://www.bing.com  |  Condition:  | @17-Nov-2023 12:58:07.007
+[DONE]   | Opened Url: https://www.bing.com
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:testAccessibility  |  Input: @Bing All  |  Condition:  | @17-Nov-2023 12:58:08.008
+[WARNING]   | Bing All - Failed 4 violations found 
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:testAccessibility  |  Input: @Bing Include @include span,a  |  Condition:  | @17-Nov-2023 12:58:08.008
+[DONE]   | Bing Include - Passed all the recommendations by aXe
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:testAccessibility  |  Input: @Bing Exclude @exclude a  |  Condition:  | @17-Nov-2023 12:58:08.008
+[WARNING]   | Bing Exclude - Failed 4 violations found 
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:testAccessibility  |  Input: @Bing InExclude @include span, a @exclude p  |  Condition:  | @17-Nov-2023 12:58:09.009
+[WARNING]   | Bing InExclude - Failed 1 violations found 
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:testAccessibility  |  Input: @BingOptions @options {runOnly:{type: "tag", values:["wcag2a"]}}  |  Condition:  | @17-Nov-2023 12:58:09.009
+[WARNING]   | BingOptions - Failed 3 violations found 
+
+
+===================================================================================================
+
+Step:7  |  Object:BingMenu  |  Action:testAccessibilityElement  |  Input:   |  Condition:  | @17-Nov-2023 12:58:20.020
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 7
+Passed Steps         : 2
+Failed Steps         : 5
+Time Taken           : 00:00:21
+---------------------------------------------------
+

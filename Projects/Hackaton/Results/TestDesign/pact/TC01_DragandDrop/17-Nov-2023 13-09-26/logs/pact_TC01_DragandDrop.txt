@@ -1,0 +1,77 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  11.0.16.1
+java.home                                  :  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Nov 17 13:09:26 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [TC01_DragandDrop]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://qaplayground.dev/  |  Condition:  | @17-Nov-2023 13:09:32.032
+[DONE]   | Opened Url: https://qaplayground.dev/
+
+
+===================================================================================================
+
+Step:2  |  Object:Geolocation Set browser geoloc  |  Action:waitForElementToBePresent  |  Input:   |  Condition:  | @17-Nov-2023 13:09:32.032
+[PASS]   | 'Geolocation Set browser geoloc' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:3  |  Object:Geolocation Set browser geoloc  |  Action:Click  |  Input:   |  Condition:  | @17-Nov-2023 13:09:37.037
+[DONE]   | Clicking on Geolocation Set browser geoloc
+
+
+===================================================================================================
+
+Step:4  |  Object:Get Location  |  Action:waitForElementToBeVisible  |  Input:   |  Condition:  | @17-Nov-2023 13:09:37.037
+[DONE]   | 'Get Location' Element becomes visible in stipulated time
+
+
+===================================================================================================
+
+Step:5  |  Object:Get Location  |  Action:Click  |  Input:   |  Condition:  | @17-Nov-2023 13:09:37.037
+[DONE]   | Clicking on Get Location
+
+
+===================================================================================================
+
+Step:6  |  Object:Bhopal, India  |  Action:waitForElementToBeInVisible  |  Input:   |  Condition:  | @17-Nov-2023 13:09:48.048
+[DEBUG]   | Couldn't wait for action to complete in given time - 10 seconds
+
+
+===================================================================================================
+
+Step:7  |  Object:Bhopal, India  |  Action:assertElementTextContains  |  Input: @Bhopal, India  |  Condition:  | @17-Nov-2023 13:09:48.048
+[PASS]   | Bhopal, India's Text CONTAINS Bhopal, India 
+
+
+===================================================================================================
+
+Step:8  |  Object:Bhopal, India  |  Action:Click  |  Input:   |  Condition:  | @17-Nov-2023 13:09:49.049
+[DONE]   | Clicking on Bhopal, India
+
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:22
+---------------------------------------------------
+

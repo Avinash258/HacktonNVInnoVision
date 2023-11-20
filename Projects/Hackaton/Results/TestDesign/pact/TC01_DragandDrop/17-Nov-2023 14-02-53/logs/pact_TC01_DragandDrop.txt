@@ -1,0 +1,29 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  OpenJDK Runtime Environment
+java.version                               :  11.0.16.1
+java.home                                  :  C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Fri Nov 17 14:02:53 IST 2023
+
+Scenario         :  [pact]
+TestCase         :  [TC01_DragandDrop]
+Browser          :  [Edge]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+---------------------------------------------------
+Testcase Name        : pact:TC01_DragandDrop
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:14
+---------------------------------------------------
+

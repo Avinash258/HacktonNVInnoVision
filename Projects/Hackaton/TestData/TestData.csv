@@ -1,0 +1,10 @@
+Scenario,Flow,Iteration,SubIteration,List,Position,NewColumn0
+pact,TC02_Sorting,1,1,Jeff Bezos,0,
+pact,TC02_Sorting,1,2,Bill Gates,1,
+pact,TC02_Sorting,1,3,Warren Buffett,2,
+pact,TC02_Sorting,1,4,Bernard Arnault,3,
+pact,TC02_Sorting,1,5,Carlos Slim Helu,4,
+pact,TC02_Sorting,1,6,Amancio Ortega,5,
+pact,TC02_Sorting,1,7,Larry Ellison,6,
+pact,TC02_Sorting,1,8,Mark Zuckerberg,7,
+pact,TC02_Sorting,1,9,Michael Bloomberg,8,
