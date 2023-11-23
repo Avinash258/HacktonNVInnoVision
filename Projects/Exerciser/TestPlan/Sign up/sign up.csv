@@ -1,0 +1,41 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.automationexercise.com/,,
+2,Signup / Login,"Click the [<Object>] ",Click,,,Automation
+3,Name,"Click the [<Object>] ",Click,,,Automation1
+4,Name,Enter the value [<Data>] in the Field [<Object>],Set,@test,,Automation1
+5,Browser,Add a variable to access within testcase,AddVar,=Random(4):,%R%,
+6,Browser,Add a variable to access within testcase,AddVar,"=Concat(@test_01,%R%,@test.com):",%email%,
+7,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,exercise:email,%email%,
+8,Email Address,"Click the [<Object>] ",Click,,,Automation1
+9,Email Address,Enter the value [<Data>] in the Field [<Object>],Set,exercise:email,%email%,Automation1
+10,Signup,"Click the [<Object>] ",Click,,,Automation1
+11,title,"Click the [<Object>] ",Click,,,Automation2
+"//12",title1,"Click the [<Object>] ",Click,,,Automation2
+"//13",title,"Click the [<Object>] ",Click,,,Automation2
+14,Password *,"Click the [<Object>] ",Click,,,Automation2
+15,Password *,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@d9Pu+SyIaEqGOoR9tfQO0Q== Enc,,Automation2
+16,days,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@3,,Automation2
+17,months,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@February,,Automation2
+18,years,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@1987,,Automation2
+19,First name *,"Click the [<Object>] ",Click,,,Automation2
+20,First name *,Enter the value [<Data>] in the Field [<Object>],Set,@test1,,Automation2
+21,Last name *,"Click the [<Object>] ",Click,,,Automation2
+22,Last name *,Enter the value [<Data>] in the Field [<Object>],Set,@test2,,Automation2
+23,Company,"Click the [<Object>] ",Click,,,Automation2
+24,Company,Enter the value [<Data>] in the Field [<Object>],Set,@nv,,Automation2
+25,"Address * (Street address, P.O. Box, Company name, etc.)","Click the [<Object>] ",Click,,,Automation2
+26,"Address * (Street address, P.O. Box, Company name, etc.)",Enter the value [<Data>] in the Field [<Object>],Set,@test address,,Automation2
+27,Address 2,"Click the [<Object>] ",Click,,,Automation2
+28,Address 2,Enter the value [<Data>] in the Field [<Object>],Set,@test address,,Automation2
+29,State *,"Click the [<Object>] ",Click,,,Automation2
+30,State *,Enter the value [<Data>] in the Field [<Object>],Set,@UP,,Automation2
+31,City *,"Click the [<Object>] ",Click,,,Automation2
+32,City *,Enter the value [<Data>] in the Field [<Object>],Set,@Test,,Automation2
+33,Zipcode *,"Click the [<Object>] ",Click,,,Automation2
+34,Zipcode *,Enter the value [<Data>] in the Field [<Object>],Set,@4444444,,Automation2
+35,Mobile Number *,"Click the [<Object>] ",Click,,,Automation2
+36,Mobile Number *,Enter the value [<Data>] in the Field [<Object>],Set,@9898989898,,Automation2
+37,Create Account,"Click the [<Object>] ",Click,,,Automation2
+"//38",Account Created!,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Account Created!,,Automation3
+39,Congratulations! Your new acco,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Congratulations! Your new account has been successfully created!,,Automation3
+40,Continue,"Click the [<Object>] ",Click,,,Automation3

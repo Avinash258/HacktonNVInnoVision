@@ -1,0 +1,154 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine : 1.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.1
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 11
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Nov 23 17:19:36 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Sign up] [TestCase: sign up] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-41] WARN com.NewVision.InnoVision.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+[pool-6-thread-1] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119
+[pool-6-thread-1] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_119)
+[pool-6-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\satya\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 7778
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2023-11-23 17:19:38:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input:*********  | Conditon:  | @23-Nov-2023 17:19:38.038
+[DONE]   | Opened Url: https://www.automationexercise.com/
+
+===================================================================================================
+
+Step:2   | Object: Signup / Login | Action: Click | Input:*********  | Conditon:  | @23-Nov-2023 17:19:43.043
+Using @link_text [Signup / Login], Object 'Signup / Login' Found in 61 ms
+[DONE]   | Clicking on Signup / Login
+
+===================================================================================================
+
+Step:3   | Object: Name | Action: Click | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Using @name [name], Object 'Name' Found in 25 ms
+[DONE]   | Clicking on Name
+
+===================================================================================================
+
+Step:4   | Object: Name | Action: Set | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Using @name [name], Object 'Name' Found in 21 ms
+[DONE]   | Entered Text 'test' on 'Name'
+
+===================================================================================================
+
+Step:5   | Object: Email Address | Action: Click | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Object 'Email Address' Found in 13 ms
+[DONE]   | Clicking on Email Address
+
+===================================================================================================
+
+Step:6   | Object: Email Address | Action: Set | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Object 'Email Address' Found in 11 ms
+[DONE]   | Entered Text 'test348234@test.com' on 'Email Address'
+
+===================================================================================================
+
+Step:7   | Object: Signup | Action: Click | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Using @relative_xpath [(//button[@type='submit'])[2]], Object 'Signup' Found in 31 ms
+[DONE]   | Clicking on Signup
+
+===================================================================================================
+
+Step:8   | Object: title | Action: Click | Input:*********  | Conditon:  | @23-Nov-2023 17:19:44.044
+Element could not be identified with [name] : [title]
+2023-11-23 17:19:54:11S +0530 [OFF ] com.NewVision.InnoVision.engine.drivers.AutomationObject getElements:null
+java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 145
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4861)
+	at java.base/java.lang.String.substring(String.java:2830)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:363)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.NewVision.InnoVision.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.NewVision.InnoVision.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Couldn't find Object 'title' in stipulated Time '10' Seconds
+2023-11-23 17:19:54:11S +0530 [SEVERE] com.NewVision.InnoVision.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.NewVision.InnoVision.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.NewVision.InnoVision.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:148)
+	at com.NewVision.InnoVision.engine.commands.Command.isDriverAlive(Command.java:140)
+	at com.NewVision.InnoVision.engine.commands.General.checkIfDriverIsAlive(General.java:37)
+	at com.NewVision.InnoVision.engine.commands.General.elementPresent(General.java:45)
+	at com.NewVision.InnoVision.engine.commands.General.elementDisplayed(General.java:56)
+	at com.NewVision.InnoVision.engine.commands.General.elementEnabled(General.java:63)
+	at com.NewVision.InnoVision.engine.commands.Basic.Click(Basic.java:47)
+	at com.NewVision.InnoVision.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.NewVision.InnoVision.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.NewVision.InnoVision.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.NewVision.InnoVision.engine.core.Task.runIteration(Task.java:127)
+	at com.NewVision.InnoVision.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Sign up:sign up
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:18
+-----------------------------------------------------
+
+Run Finished on Thu Nov 23 17:19:55 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 23-Nov-2023 17-19-36
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:18
+ReportPath           : file:///D:\Hackathon exercise\HacktonNVInnoVision\Projects\Exerciser\Results\TestDesign\Sign up\sign up\23-Nov-2023 17-19-36\summary.html
+-----------------------------------------------------
+[Thread-41] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to Open - D:\Hackathon exercise\HacktonNVInnoVision\Projects\Exerciser\Results\TestDesign\Sign up\sign up\23-Nov-2023 17-19-36\summary.html
+[Thread-41] INFO com.NewVision.InnoVision.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [D:\Hackathon exercise\HacktonNVInnoVision\Projects\Exerciser\Results\TestDesign\Sign up\sign up\23-Nov-2023 17-19-36\summary.html]
