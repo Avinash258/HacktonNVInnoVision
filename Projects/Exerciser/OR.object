@@ -1,0 +1,370 @@
+<Root type="OR" ref="Exerciser">
+  <Page title="Automation Exercise" ref="Automation">
+    <ObjectGroup ref="Signup / Login">
+      <Object frame="" ref="Signup / Login">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Signup / Login" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Signup / Login')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/header/div/div/div/div[2]/div/ul/li[4]/a" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body > #header > div.header-middle > div.container > div.row > div.col-sm-8 > div.shop-menu.pull-right > ul.nav.navbar-nav > li:nth-of-type(3) > a" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/login&quot;>&lt;i class=&quot;fa fa-lock&quot;>&lt;/i> Signup / Login&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Automation Exercise - Signup / Login" ref="Automation1">
+    <ObjectGroup ref="Name">
+      <Object frame="" ref="Name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="name" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Name']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div[3]/div/form/input[2]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="input[name=&quot;name&quot;]" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;signup-name&quot; placeholder=&quot;Name&quot; name=&quot;name&quot; value=&quot;&quot; required=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Email Address">
+      <Object frame="" ref="Email Address">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//*[@data-qa=&quot;signup-email&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;email&quot; data-qa=&quot;signup-email&quot; placeholder=&quot;Email Address&quot; name=&quot;email&quot; value=&quot;&quot; required=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Signup">
+      <Object frame="" ref="Signup">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//button[@type='submit'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div[3]/div/form/button" ref="xpath" pref="6"/>
+        <Property value="btn btn-default" ref="class" pref="7"/>
+        <Property value="div.signup-form > form > button.btn.btn-default" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button type=&quot;submit&quot; data-qa=&quot;signup-button&quot; class=&quot;btn btn-default&quot;>Signup&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Automation Exercise - Signup" ref="Automation2">
+    <ObjectGroup ref="title">
+      <Object frame="" ref="title">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="title" ref="name" pref="2"/>
+        <Property value="id_gender1" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Mr']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/div/div/form/div/div/label/div/span/input)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#id_gender1" ref="css" pref="8"/>
+        <Property value="radio" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="title1">
+      <Object frame="" ref="title1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="title" ref="name" pref="2"/>
+        <Property value="id_gender2" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Mrs']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/div/div[2]/label/div/span/input" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="#id_gender2" ref="css" pref="8"/>
+        <Property value="radio" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Name *">
+      <Object frame="" ref="Name *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="name" ref="name" pref="2"/>
+        <Property value="name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='test']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password *">
+      <Object frame="" ref="Password *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="password" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[4]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/div[4]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;password&quot; class=&quot;form-control&quot; data-qa=&quot;password&quot; id=&quot;password&quot; required=&quot;&quot; name=&quot;password&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="days">
+      <Object frame="" ref="days">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="days" ref="name" pref="2"/>
+        <Property value="days" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='days']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/div/div/form/div[5]/div/div/div/select)[1]" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#days" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select data-qa=&quot;days&quot; id=&quot;days&quot; name=&quot;days&quot; class=&quot;form-control&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;>Day&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1&quot;>1&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2&quot;>2&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;3&quot;>3&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;4&quot;>4&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;5&quot;>5&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;6&quot;>6&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;7&quot;>7&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;8&quot;>8&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;9&quot;>9&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;10&quot;>10&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;11&quot;>11&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;12&quot;>12&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;13&quot;>13&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;14&quot;>14&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;15&quot;>15&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;16&quot;>16&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;17&quot;>17&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;18&quot;>18&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;19&quot;>19&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;20&quot;>20&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;21&quot;>21&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;22&quot;>22&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;23&quot;>23&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;24&quot;>24&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;25&quot;>25&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;26&quot;>26&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;27&quot;>27&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;28&quot;>28&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;29&quot;>29&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;30&quot;>30&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;31&quot;>31&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="months">
+      <Object frame="" ref="months">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="months" ref="name" pref="2"/>
+        <Property value="months" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='months']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/div[5]/div/div[2]/div/select" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#months" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select data-qa=&quot;months&quot; id=&quot;months&quot; name=&quot;months&quot; class=&quot;form-control&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;>Month&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1&quot;>January&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2&quot;>February&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;3&quot;>March&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;4&quot;>April&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;5&quot;>May&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;6&quot;>June&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;7&quot;>July&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;8&quot;>August&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;9&quot;>September&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;10&quot;>October&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;11&quot;>November&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;12&quot;>December&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="years">
+      <Object frame="" ref="years">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="years" ref="name" pref="2"/>
+        <Property value="years" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='years']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/div[5]/div/div[3]/div/select" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#years" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select data-qa=&quot;years&quot; id=&quot;years&quot; name=&quot;years&quot; class=&quot;form-control&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;>Year&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2021&quot;>2021&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2020&quot;>2020&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2019&quot;>2019&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2018&quot;>2018&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2017&quot;>2017&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2016&quot;>2016&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2015&quot;>2015&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2014&quot;>2014&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2013&quot;>2013&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2012&quot;>2012&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2011&quot;>2011&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2010&quot;>2010&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2009&quot;>2009&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2008&quot;>2008&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2007&quot;>2007&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2006&quot;>2006&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2005&quot;>2005&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2004&quot;>2004&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2003&quot;>2003&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2002&quot;>2002&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2001&quot;>2001&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;2000&quot;>2000&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1999&quot;>1999&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1998&quot;>1998&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1997&quot;>1997&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1996&quot;>1996&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1995&quot;>1995&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1994&quot;>1994&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1993&quot;>1993&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1992&quot;>1992&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1991&quot;>1991&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1990&quot;>1990&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1989&quot;>1989&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1988&quot;>1988&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1987&quot;>1987&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1986&quot;>1986&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1985&quot;>1985&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1984&quot;>1984&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1983&quot;>1983&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1982&quot;>1982&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1981&quot;>1981&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1980&quot;>1980&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1979&quot;>1979&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1978&quot;>1978&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1977&quot;>1977&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1976&quot;>1976&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1975&quot;>1975&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1974&quot;>1974&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1973&quot;>1973&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1972&quot;>1972&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1971&quot;>1971&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1970&quot;>1970&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1969&quot;>1969&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1968&quot;>1968&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1967&quot;>1967&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1966&quot;>1966&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1965&quot;>1965&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1964&quot;>1964&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1963&quot;>1963&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1962&quot;>1962&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1961&quot;>1961&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1960&quot;>1960&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1959&quot;>1959&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1958&quot;>1958&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1957&quot;>1957&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1956&quot;>1956&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1955&quot;>1955&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1954&quot;>1954&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1953&quot;>1953&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1952&quot;>1952&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1951&quot;>1951&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1950&quot;>1950&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1949&quot;>1949&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1948&quot;>1948&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1947&quot;>1947&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1946&quot;>1946&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1945&quot;>1945&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1944&quot;>1944&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1943&quot;>1943&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1942&quot;>1942&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1941&quot;>1941&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1940&quot;>1940&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1939&quot;>1939&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1938&quot;>1938&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1937&quot;>1937&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1936&quot;>1936&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1935&quot;>1935&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1934&quot;>1934&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1933&quot;>1933&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1932&quot;>1932&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1931&quot;>1931&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1930&quot;>1930&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1929&quot;>1929&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1928&quot;>1928&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1927&quot;>1927&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1926&quot;>1926&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1925&quot;>1925&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1924&quot;>1924&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1923&quot;>1923&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1922&quot;>1922&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1921&quot;>1921&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1920&quot;>1920&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1919&quot;>1919&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1918&quot;>1918&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1917&quot;>1917&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1916&quot;>1916&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1915&quot;>1915&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1914&quot;>1914&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1913&quot;>1913&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1912&quot;>1912&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1911&quot;>1911&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1910&quot;>1910&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1909&quot;>1909&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1908&quot;>1908&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1907&quot;>1907&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1906&quot;>1906&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1905&quot;>1905&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1904&quot;>1904&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1903&quot;>1903&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1902&quot;>1902&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1901&quot;>1901&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;1900&quot;>1900&lt;/option>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="First name *">
+      <Object frame="" ref="First name *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="first_name" ref="name" pref="2"/>
+        <Property value="first_name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/section/div/div/div/div/form/p/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/div/div/form/p/input)[1]" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#first_name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;first_name&quot; class=&quot;form-control&quot; id=&quot;first_name&quot; name=&quot;first_name&quot; required=&quot;&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Last name *">
+      <Object frame="" ref="Last name *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="last_name" ref="name" pref="2"/>
+        <Property value="last_name" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[2]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[2]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#last_name" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;last_name&quot; class=&quot;form-control&quot; id=&quot;last_name&quot; name=&quot;last_name&quot; required=&quot;&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Company">
+      <Object frame="" ref="Company">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="company" ref="name" pref="2"/>
+        <Property value="company" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[3]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[3]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#company" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;company&quot; class=&quot;form-control&quot; id=&quot;company&quot; name=&quot;company&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Address * (Street address, P.O. Box, Company name, etc.)">
+      <Object frame="" ref="Address * (Street address, P.O. Box, Company name, etc.)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="address1" ref="name" pref="2"/>
+        <Property value="address1" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[4]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[4]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#address1" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;address&quot; class=&quot;form-control&quot; required=&quot;&quot; name=&quot;address1&quot; id=&quot;address1&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Address 2">
+      <Object frame="" ref="Address 2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="address2" ref="name" pref="2"/>
+        <Property value="address2" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[5]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[5]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#address2" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;address2&quot; class=&quot;form-control&quot; name=&quot;address2&quot; id=&quot;address2&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="State *">
+      <Object frame="" ref="State *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="state" ref="name" pref="2"/>
+        <Property value="state" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[7]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[7]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#state" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;state&quot; class=&quot;form-control&quot; required=&quot;&quot; name=&quot;state&quot; id=&quot;state&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="City *">
+      <Object frame="" ref="City *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="city" ref="name" pref="2"/>
+        <Property value="city" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[8]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[8]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#city" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;city&quot; class=&quot;form-control&quot; required=&quot;&quot; name=&quot;city&quot; id=&quot;city&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Zipcode *">
+      <Object frame="" ref="Zipcode *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="zipcode" ref="name" pref="2"/>
+        <Property value="zipcode" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[9]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[9]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#zipcode" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;zipcode&quot; class=&quot;form-control&quot; required=&quot;&quot; name=&quot;zipcode&quot; id=&quot;zipcode&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Mobile Number *">
+      <Object frame="" ref="Mobile Number *">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="mobile_number" ref="name" pref="2"/>
+        <Property value="mobile_number" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[10]/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/p[10]/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#mobile_number" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;text&quot; data-qa=&quot;mobile_number&quot; class=&quot;form-control&quot; required=&quot;&quot; name=&quot;mobile_number&quot; id=&quot;mobile_number&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Create Account">
+      <Object frame="" ref="Create Account">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//button[@type='submit'])[1]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/form/button" ref="xpath" pref="6"/>
+        <Property value="btn btn-default" ref="class" pref="7"/>
+        <Property value="div.login-form > form > button.btn.btn-default" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button type=&quot;submit&quot; data-qa=&quot;create-account&quot; class=&quot;btn btn-default&quot;>Create Account&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Automation Exercise - Account Created" ref="Automation3">
+    <ObjectGroup ref="Account Created!">
+      <Object frame="" ref="Account Created!">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Account Created!']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/h2/b" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="b" ref="css" pref="8"/>
+        <Property value="b" ref="type" pref="9"/>
+        <Property value="&lt;b>Account Created!&lt;/b>" ref="outerHTML" pref="10"/>
+        <Property value="b" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Congratulations! Your new acco">
+      <Object frame="" ref="Congratulations! Your new acco">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/section/div/div/div/p" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/section/div/div/div/p)[1]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body > #form > div.container > div.row > div.col-sm-9.col-sm-offset-1 > p" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p style=&quot;font-size: 20px; font-family: garamond;&quot;>Congratulations! Your new account has been successfully created!&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Continue">
+      <Object frame="" ref="Continue">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Continue" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Continue')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/section/div/div/div/div/a" ref="xpath" pref="6"/>
+        <Property value="btn btn-primary" ref="class" pref="7"/>
+        <Property value="a.btn.btn-primary" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a href=&quot;/&quot; data-qa=&quot;continue-button&quot; class=&quot;btn btn-primary&quot;>Continue&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

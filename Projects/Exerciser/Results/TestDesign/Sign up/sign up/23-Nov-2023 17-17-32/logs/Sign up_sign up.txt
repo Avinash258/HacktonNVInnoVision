@@ -1,0 +1,95 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.1
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Nov 23 17:17:32 IST 2023
+
+Scenario         :  [Sign up]
+TestCase         :  [sign up]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://www.automationexercise.com/  |  Condition:  | @23-Nov-2023 17:17:37.037
+[DONE]   | Opened Url: https://www.automationexercise.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Signup / Login  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:38.038
+[DONE]   | Clicking on Signup / Login
+
+
+===================================================================================================
+
+Step:3  |  Object:Name  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:38.038
+[DONE]   | Clicking on Name
+
+
+===================================================================================================
+
+Step:4  |  Object:Name  |  Action:Set  |  Input: @test  |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Entered Text 'test' on 'Name'
+
+
+===================================================================================================
+
+Step:5  |  Object:Email Address  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Clicking on Email Address
+
+
+===================================================================================================
+
+Step:6  |  Object:Email Address  |  Action:Set  |  Input: @test@test.com  |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Entered Text 'test@test.com' on 'Email Address'
+
+
+===================================================================================================
+
+Step:7  |  Object:Signup  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Clicking on Signup
+
+
+===================================================================================================
+
+Step:8  |  Object:Email Address  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Clicking on Email Address
+
+
+===================================================================================================
+
+Step:9  |  Object:Email Address  |  Action:Set  |  Input: @test348234@test.com  |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Entered Text 'test348234@test.com' on 'Email Address'
+
+
+===================================================================================================
+
+Step:10  |  Object:Signup  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:17:39.039
+[DONE]   | Clicking on Signup
+
+
+===================================================================================================
+
+Step:11  |  Object:title  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:18:41.041
+[FAIL]   | Seems Like the Element [title] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : Sign up:sign up
+Executed Steps       : 11
+Passed Steps         : 10
+Failed Steps         : 1
+Time Taken           : 00:01:10
+---------------------------------------------------
+

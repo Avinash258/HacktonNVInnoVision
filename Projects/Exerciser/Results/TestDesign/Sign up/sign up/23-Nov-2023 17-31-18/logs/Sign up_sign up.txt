@@ -1,0 +1,251 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.1
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Nov 23 17:31:18 IST 2023
+
+Scenario         :  [Sign up]
+TestCase         :  [sign up]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://www.automationexercise.com/  |  Condition:  | @23-Nov-2023 17:31:23.023
+[DONE]   | Opened Url: https://www.automationexercise.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Signup / Login  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:24.024
+[DONE]   | Clicking on Signup / Login
+
+
+===================================================================================================
+
+Step:3  |  Object:Name  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:24.024
+[DONE]   | Clicking on Name
+
+
+===================================================================================================
+
+Step:4  |  Object:Name  |  Action:Set  |  Input: @test  |  Condition:  | @23-Nov-2023 17:31:24.024
+[DONE]   | Entered Text 'test' on 'Name'
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:AddVar  |  Input: =Random(4):  |  Condition:%R%  | @23-Nov-2023 17:31:24.024
+[DONE]   | Variable %R%
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:AddVar  |  Input: =Concat(@test_01,%R%,@test.com):  |  Condition:%email%  | @23-Nov-2023 17:31:24.024
+[DONE]   | Variable %email%
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:storeVariableInDataSheet  |  Input: exercise:email  |  Condition:%email%  | @23-Nov-2023 17:31:24.024
+[DONE]   | Value of variable %email% has been stored into the data sheet
+
+
+===================================================================================================
+
+Step:8  |  Object:Email Address  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:25.025
+[DONE]   | Clicking on Email Address
+
+
+===================================================================================================
+
+Step:9  |  Object:Email Address  |  Action:Set  |  Input: exercise:email  |  Condition:%email%  | @23-Nov-2023 17:31:25.025
+[DONE]   | Entered Text 'test_018207.595543864003@test.com' on 'Email Address'
+
+
+===================================================================================================
+
+Step:10  |  Object:Signup  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Clicking on Signup
+
+
+===================================================================================================
+
+Step:11  |  Object:title  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Clicking on title
+
+
+===================================================================================================
+
+Step:14  |  Object:Password *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Clicking on Password *
+
+
+===================================================================================================
+
+Step:15  |  Object:Password *  |  Action:setEncrypted  |  Input: @d9Pu+SyIaEqGOoR9tfQO0Q== Enc  |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Entered Encrypted Text d9Pu+SyIaEqGOoR9tfQO0Q== on Password *
+
+
+===================================================================================================
+
+Step:16  |  Object:days  |  Action:selectByVisibleText  |  Input: @3  |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Item/s '3' is/are selected from list days
+
+
+===================================================================================================
+
+Step:17  |  Object:months  |  Action:selectByVisibleText  |  Input: @February  |  Condition:  | @23-Nov-2023 17:31:26.026
+[DONE]   | Item/s 'February' is/are selected from list months
+
+
+===================================================================================================
+
+Step:18  |  Object:years  |  Action:selectByVisibleText  |  Input: @1987  |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Item/s '1987' is/are selected from list years
+
+
+===================================================================================================
+
+Step:19  |  Object:First name *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Clicking on First name *
+
+
+===================================================================================================
+
+Step:20  |  Object:First name *  |  Action:Set  |  Input: @test1  |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Entered Text 'test1' on 'First name *'
+
+
+===================================================================================================
+
+Step:21  |  Object:Last name *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Clicking on Last name *
+
+
+===================================================================================================
+
+Step:22  |  Object:Last name *  |  Action:Set  |  Input: @test2  |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Entered Text 'test2' on 'Last name *'
+
+
+===================================================================================================
+
+Step:23  |  Object:Company  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Clicking on Company
+
+
+===================================================================================================
+
+Step:24  |  Object:Company  |  Action:Set  |  Input: @nv  |  Condition:  | @23-Nov-2023 17:31:27.027
+[DONE]   | Entered Text 'nv' on 'Company'
+
+
+===================================================================================================
+
+Step:25  |  Object:Address * (Street address, P.O. Box, Company name, etc.)  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Clicking on Address * (Street address, P.O. Box, Company name, etc.)
+
+
+===================================================================================================
+
+Step:26  |  Object:Address * (Street address, P.O. Box, Company name, etc.)  |  Action:Set  |  Input: @test address  |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Entered Text 'test address' on 'Address * (Street address, P.O. Box, Company name, etc.)'
+
+
+===================================================================================================
+
+Step:27  |  Object:Address 2  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Clicking on Address 2
+
+
+===================================================================================================
+
+Step:28  |  Object:Address 2  |  Action:Set  |  Input: @test address  |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Entered Text 'test address' on 'Address 2'
+
+
+===================================================================================================
+
+Step:29  |  Object:State *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Clicking on State *
+
+
+===================================================================================================
+
+Step:30  |  Object:State *  |  Action:Set  |  Input: @UP  |  Condition:  | @23-Nov-2023 17:31:28.028
+[DONE]   | Entered Text 'UP' on 'State *'
+
+
+===================================================================================================
+
+Step:31  |  Object:City *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Clicking on City *
+
+
+===================================================================================================
+
+Step:32  |  Object:City *  |  Action:Set  |  Input: @Test  |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Entered Text 'Test' on 'City *'
+
+
+===================================================================================================
+
+Step:33  |  Object:Zipcode *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Clicking on Zipcode *
+
+
+===================================================================================================
+
+Step:34  |  Object:Zipcode *  |  Action:Set  |  Input: @4444444  |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Entered Text '4444444' on 'Zipcode *'
+
+
+===================================================================================================
+
+Step:35  |  Object:Mobile Number *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Clicking on Mobile Number *
+
+
+===================================================================================================
+
+Step:36  |  Object:Mobile Number *  |  Action:Set  |  Input: @9898989898  |  Condition:  | @23-Nov-2023 17:31:29.029
+[DONE]   | Entered Text '9898989898' on 'Mobile Number *'
+
+
+===================================================================================================
+
+Step:37  |  Object:Create Account  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:31.031
+[DONE]   | Clicking on Create Account
+
+
+===================================================================================================
+
+Step:39  |  Object:Congratulations! Your new acco  |  Action:assertElementTextContains  |  Input: @Congratulations! Your new account has been successfully created!  |  Condition:  | @23-Nov-2023 17:31:41.041
+[PASS]   | Congratulations! Your new acco's Text CONTAINS Congratulations! Your new account has been successfully created! 
+
+
+===================================================================================================
+
+Step:40  |  Object:Continue  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:31:45.045
+[DONE]   | Clicking on Continue
+
+---------------------------------------------------
+Testcase Name        : Sign up:sign up
+Executed Steps       : 37
+Passed Steps         : 37
+Failed Steps         : 0
+Time Taken           : 00:00:27
+---------------------------------------------------
+

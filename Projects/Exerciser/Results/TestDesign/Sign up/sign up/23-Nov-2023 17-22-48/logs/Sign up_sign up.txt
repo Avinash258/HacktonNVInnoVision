@@ -1,0 +1,113 @@
+Run Information
+========================
+NewVision.intelligent.test.scripter.engine :  1.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.1
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 11
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Nov 23 17:22:48 IST 2023
+
+Scenario         :  [Sign up]
+TestCase         :  [sign up]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input: @https://www.automationexercise.com/  |  Condition:  | @23-Nov-2023 17:22:55.055
+[DONE]   | Opened Url: https://www.automationexercise.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Signup / Login  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:22:56.056
+[DONE]   | Clicking on Signup / Login
+
+
+===================================================================================================
+
+Step:3  |  Object:Name  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:22:56.056
+[DONE]   | Clicking on Name
+
+
+===================================================================================================
+
+Step:4  |  Object:Name  |  Action:Set  |  Input: @test  |  Condition:  | @23-Nov-2023 17:22:56.056
+[DONE]   | Entered Text 'test' on 'Name'
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:AddVar  |  Input: =Random(4):  |  Condition:%R%  | @23-Nov-2023 17:22:56.056
+[DONE]   | Variable %R%
+
+
+===================================================================================================
+
+Step:6  |  Object:Email Address  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:22:56.056
+[DONE]   | Clicking on Email Address
+
+
+===================================================================================================
+
+Step:7  |  Object:Email Address  |  Action:Set  |  Input: =Concat(@test_01,%R%,@test.com):  |  Condition:  | @23-Nov-2023 17:22:56.056
+[DONE]   | Entered Text '@test_013435.3676740479414@test.com' on 'Email Address'
+
+
+===================================================================================================
+
+Step:8  |  Object:Signup  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:22:57.057
+[DONE]   | Clicking on Signup
+
+
+===================================================================================================
+
+Step:9  |  Object:title  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:23:59.059
+[FAIL]   | Seems Like the Element [title] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:12  |  Object:Password *  |  Action:Click  |  Input:   |  Condition:  | @23-Nov-2023 17:23:59.059
+[DONE]   | Clicking on Password *
+
+
+===================================================================================================
+
+Step:13  |  Object:Password *  |  Action:setEncrypted  |  Input: @d9Pu+SyIaEqGOoR9tfQO0Q== Enc  |  Condition:  | @23-Nov-2023 17:23:59.059
+[DONE]   | Entered Encrypted Text d9Pu+SyIaEqGOoR9tfQO0Q== on Password *
+
+
+===================================================================================================
+
+Step:14  |  Object:days  |  Action:selectByVisibleText  |  Input: @3  |  Condition:  | @23-Nov-2023 17:25:12.012
+[FAIL]   | Seems Like the Element [days] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:15  |  Object:months  |  Action:selectByVisibleText  |  Input: @February  |  Condition:  | @23-Nov-2023 17:26:25.025
+[FAIL]   | Seems Like the Element [months] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:16  |  Object:years  |  Action:selectByVisibleText  |  Input: @1987  |  Condition:  | @23-Nov-2023 17:27:38.038
+[FAIL]   | Seems Like the Element [years] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : Sign up:sign up
+Executed Steps       : 14
+Passed Steps         : 10
+Failed Steps         : 4
+Time Taken           : 00:04:50
+---------------------------------------------------
+
