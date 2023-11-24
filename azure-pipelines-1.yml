@@ -3,21 +3,26 @@ trigger:
 
 pool:
      vmImage: 'windows-latest'
-
+     
 steps:
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '17'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
 - task: CmdLine@2
   inputs:
-    script: 'Run.bat -run -project_location "Projects\DEMO V.03" -release "Demo" -testset "UIandAPI"'
+    script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
              
 
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'NUnit'
     testResultsFiles: 'azure.xml'
-    searchFolder: 'Projects/DEMO V.03/Results/TestExecution/Demo/UIandAPI/Latest/'
+    searchFolder: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/'
     mergeTestResults: true
     failTaskOnFailedTests: true
-    testRunTitle: 'UI and API Demo'
+    testRunTitle: 'UI'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
