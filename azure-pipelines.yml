@@ -6,8 +6,10 @@
 trigger:
 - main
 
-pool:
-    name: Default
+
+  pool: vmImage: 'ubuntu-latest'
+
+
 
 steps:
 - task: CmdLine@2
