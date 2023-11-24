@@ -30,3 +30,9 @@ jobs:
         # Specify the full path to Run.bat if it's not in the current working directory
         .\Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"
         
+    - name: Publish results
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: path/to/results-directory
+        
