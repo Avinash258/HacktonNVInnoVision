@@ -1,12 +1,8 @@
-jobs:
-- job: Windows
-  pool:
-    vmImage: 'windows-latest'
 trigger:
 - main
 
 pool:
-    name: Default
+     vmImage: 'windows-latest'
 
 steps:
 - task: CmdLine@2
