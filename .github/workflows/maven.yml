@@ -28,8 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run the Script_Test_Manager g
-    - run: ./Run.bat
-    - shell: cmd
+    - run: Run.bat -run -release "NewRelease" -testset "NewTestSet"
      
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
