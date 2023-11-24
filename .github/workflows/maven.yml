@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run the Script_Test_Manager
-    - run: ./test_script.bat
+    - run: ./Run.bat
     - shell: cmd
      
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
