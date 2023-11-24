@@ -1,0 +1,28 @@
+jobs:
+- job: Windows
+  pool:
+    vmImage: 'windows-latest'
+trigger:
+- main
+
+pool:
+    name: Default
+
+steps:
+- task: CmdLine@2
+  inputs:
+    script: 'Run.bat -run -project_location "Projects\DEMO V.03" -release "Demo" -testset "UIandAPI"'
+             
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'NUnit'
+    testResultsFiles: 'azure.xml'
+    searchFolder: 'Projects/DEMO V.03/Results/TestExecution/Demo/UIandAPI/Latest/'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'UI and API Demo'
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
