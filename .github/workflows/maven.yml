@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: Run.bat -run  -release "NewRelease" -testset "NewTestSet"
+      run: Run.bat -run -project_location "./Hackaton" -release "NewRelease" -testset "NewTestSet"
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
