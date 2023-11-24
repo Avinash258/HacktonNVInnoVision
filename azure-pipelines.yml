@@ -1,6 +1,29 @@
-jobs:
-- job: Windows
-  pool:
-    vmImage: 'windows-latest'
-  steps:
-  - script: echo hello from Windows
+trigger:
+- main
+
+pool:
+     vmImage: 'windows-latest'
+     
+steps:
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '17'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+- task: CmdLine@2
+  inputs:
+    script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
+             
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'NUnit'
+    testResultsFiles: 'azure.xml'
+    searchFolder: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    testRunTitle: 'UI'
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
