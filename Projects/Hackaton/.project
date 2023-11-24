@@ -37,5 +37,27 @@
     "attributes" : [ ],
     "tags" : [ ]
   } ],
-  "data" : [ ]
+  "data" : [ {
+    "id" : "pact#TC01_DragandDrop",
+    "name" : "TC01_DragandDrop",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "pact"
+    } ]
+  }, {
+    "id" : "pact#TC02_Sorting",
+    "name" : "TC02_Sorting",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "pact"
+    } ]
+  } ]
 }
