@@ -178,6 +178,7 @@ public class WebDriverFactory {
 		case FireFox:
 			if (!isGrid) {
 				caps.setPlatform(Platform.ANY);
+                                WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver(withFirefoxProfile(caps));
 				addGeckoDriverAddon((FirefoxDriver) driver);
 			} else {
@@ -188,19 +189,20 @@ public class WebDriverFactory {
 		case Chrome:
 			maximize = false;
 			if (!isGrid) {
-				 WebDriverManager.chromedriver().setup();
+                            
+//				 WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver(withChromeOptions(caps));
 			} else {
 				caps = DesiredCapabilities.chrome().merge(withChromeOptions(caps));
 				
 			}
 			break;
-		/*
-		 * case ChromeHeadless: maximize = false; if (!isGrid) { driver = new
-		 * ChromeDriver(withHeadlessChrome(withChromeOptions(caps))); } else { caps =
-		 * DesiredCapabilities.chrome().merge(withHeadlessChrome(withChromeOptions(caps)
-		 * )); } break;
-		 */
+		
+		  case ChromeHeadless: maximize = false; if (!isGrid) { driver = new
+		  ChromeDriver(withHeadlessChrome(withChromeOptions(caps))); } else { caps =
+		  DesiredCapabilities.chrome().merge(withHeadlessChrome(withChromeOptions(caps)
+		 )); } break;
+		 
 		case IE:
 			if (!isGrid) {
 				WebDriverManager.iedriver().setup();
@@ -364,7 +366,7 @@ public class WebDriverFactory {
 			driver = new ChromeDriver(chromeEmulatorCaps);
 		} else {
 			DesiredCapabilities caps = DesiredCapabilities.chrome();
-			//caps.merge(chromeEmulatorCaps);
+			caps.merge(chromeEmulatorCaps);
 			Boolean checkForProxy = settings.getDriverSettings().useProxy();
 			driver = createRemoteDriver(remoteUrl, caps, checkForProxy, settings.getDriverSettings());
 		}
@@ -596,15 +598,15 @@ public class WebDriverFactory {
 	 * @param caps
 	 * @return
 	 */
-	/*
-	 * private static ChromeOptions withHeadlessChrome(ChromeOptions caps) {
-	 * ChromeOptions options; Object obj =
-	 * caps.getCapability(ChromeOptions.CAPABILITY); if (obj != null && obj
-	 * instanceof ChromeOptions) { options = (ChromeOptions) obj; } else { options =
-	 * new ChromeOptions(); } options.addArguments("--headless", "--disable-gpu",
-	 * "--window-size=1366,768"); options.setCapability(ChromeOptions.CAPABILITY,
-	 * options); return options; }
-	 */
+	
+	  private static ChromeOptions withHeadlessChrome(ChromeOptions caps) {
+	  ChromeOptions options; Object obj =
+	  caps.getCapability(ChromeOptions.CAPABILITY); if (obj != null && obj
+	  instanceof ChromeOptions) { options = (ChromeOptions) obj; } else { options =
+	  new ChromeOptions(); } options.addArguments("--headless", "--disable-gpu",
+	  "--window-size=1366,768"); options.setCapability(ChromeOptions.CAPABILITY,
+	 options); return options; }
+	 
 
 	private static ChromeOptions withChromeOptions(DesiredCapabilities caps) {
 		ChromeOptions options;

@@ -21,25 +21,26 @@ function ContextMenu() {
 ContextMenu.forHeal = function () {
     ContextMenu.destroy();
     chrome.contextMenus.create(
-        {"id":"spymode" ,"title": "SpyMode", "type": "checkbox", "onclick": toggleSpyForHeal }, () => chrome.runtime.lastError);
+        { "title": "SpyMode", "type": "checkbox", "onclick": toggleSpyForHeal }); 
 };
 
 ContextMenu.init = function () {
     ContextMenu.destroy();
     ContextMenuList.menus.forEach(function (menu) {
-        chrome.contextMenus.create({ "title":menu.capitalize(), "contexts": ["all"], "id": menu });
-    }, () => chrome.runtime.lastError);
+        chrome.contextMenus.create({ "title": menu.capitalize(), "contexts": ["all"], "id": menu });
+    });
     for (var subMenu in ContextMenuList.subMenus) {
         chrome.contextMenus.create({ "title": subMenu, "contexts": ["all"], "id": subMenu });
         ContextMenuList.subMenus[subMenu].forEach(function (menu) {
             if (menu === "---")
-                chrome.contextMenus.create({"id":"ifmenu" ,"type": "separator", "parentId": subMenu }, () => chrome.runtime.lastError);
+                chrome.contextMenus.create({ "type": "separator", "parentId": subMenu });
             else
-                chrome.contextMenus.create({ "title": menu.capitalize(), "parentId": subMenu, "contexts": ["all"], "id": menu }, () => chrome.runtime.lastError);
+                chrome.contextMenus.create({ "title": menu.capitalize(), "parentId": subMenu, "contexts": ["all"], "id": menu });
         });
     }
     chrome.contextMenus.onClicked.addListener(contextClick);
 };
+
 
 ContextMenu.destroy = function () {
     chrome.contextMenus.onClicked.removeListener(contextClick);

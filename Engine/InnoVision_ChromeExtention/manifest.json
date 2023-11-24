@@ -12,8 +12,9 @@
     },
     "options_ui": {
         "page": "Options/index.html",
-         "open_in_tab": true
-     },
+        "chrome_style": false,
+        "open_in_tab": true
+    },
     "content_scripts": [
         {
             "matches": [
@@ -33,14 +34,12 @@
         }
     ],
     "background": {
-        
         "scripts": [
-            "Background/service_worker.js",
             "Background/contextmenu.js",
-            "Background/server.js",
-            "Background/contextMenuList.js"
-        ],
-        "persistent": false
+            "Background/contextMenuList.js",
+            "Background/service_worker.js",
+            "Background/server.js"
+        ]
     },
     "browser_action": {
         "default_icon": "logo-64.png"
@@ -78,7 +77,7 @@
         "storage",
         "contextMenus",
         "background",
-        "notifications",
-        "nativeMessaging"
+        "notifications"
     ]
+
 }

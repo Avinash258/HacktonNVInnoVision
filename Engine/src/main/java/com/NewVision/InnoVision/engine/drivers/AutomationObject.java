@@ -347,6 +347,7 @@ public class AutomationObject {
 							tagName = attr.getValue();
 							continue;
 						}
+                                                
 
 						if (elements!=null) {
 							return elements;

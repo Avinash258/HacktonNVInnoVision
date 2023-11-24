@@ -169,7 +169,7 @@ public class ExtentSummaryHandler extends SummaryHandler implements PrimaryHandl
         extentReport.sparkReporter.config().setReportName(reportName);
         extentReport.sparkReporter.config().setCss(".uri-anchor, .pointer {display: none; }");
 
-        extentReport.sparkReporter.config().setCss(".side-nav-menu {background-color: url('/home/anshika/Documents/InnoVision-Dev/Engine/src/main/resources/reporting/logo.png'); }");
+//        extentReport.sparkReporter.config().setCss(".side-nav-menu {background-color: url('/home/anshika/Documents/InnoVision-Dev/Engine/src/main/resources/reporting/logo.png'); }");
 //        side-nav-menu
         extentReport.sparkReporter.config().setJs("var x = document.getElementsByClassName(\"badge badge-gradient-primary\");for (let i = 0; i < x.length; i++) {x[i].innerHTML = \"Click to view screenshot\";}");
         String path = System.getProperty("user.dir");

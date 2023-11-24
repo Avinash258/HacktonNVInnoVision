@@ -1,9 +1,0 @@
-Scenario,Flow,Iteration,SubIteration,FirstName,LastName,Date
-BasicFeatures,Iterations&SubIterations,1,1,NewVision1,ITS1,01/01/2017
-BasicFeatures,Iterations&SubIterations,1,2,NewVision2,ITS2,02/01/2017
-BasicFeatures,Iterations&SubIterations,1,3,NewVision3,ITS3,03/01/2017
-BasicFeatures,Iterations&SubIterations,1,4,NewVision4,ITS4,04/01/2017
-BasicFeatures,Iterations&SubIterations,2,1,NewVision5,ITS5,01/02/2017
-BasicFeatures,Iterations&SubIterations,2,2,NewVision6,ITS6,02/02/2017
-BasicFeatures,Iterations&SubIterations,2,3,NewVision7,ITS7,03/02/2017
-BasicFeatures,Iterations&SubIterations,2,4,NewVision8,ITS8,04/02/2017

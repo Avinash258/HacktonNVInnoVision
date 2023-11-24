@@ -128,6 +128,7 @@ public class EmptyDriver implements WebDriver, TakesScreenshot {
     
         public static void chormeExtension() {
            String currentPath = System.getProperty("user.dir");
+           
 //         if(SystemUtils.IS_OS_WINDOWS){
 //             System.setProperty("webdriver.chrome.driver", "lib/Drivers/chromedriver.exe");    
 //         }else if(SystemUtils.IS_OS_LINUX){
@@ -137,8 +138,11 @@ public class EmptyDriver implements WebDriver, TakesScreenshot {
 //        } else{
 //         System.err.println("OS Not Supported");
 //        }
-//       
+
+
+
         System.out.println("Current Directory: "+currentPath);
+            System.out.println("sysstem"+ System.getProperty("webdriver.chrome.driver"));
        String extensionPath = currentPath+File.separator+"Engine"+File.separator+"InnoVision_ChromeExtention";
         
         ChromeOptions options = new ChromeOptions();
