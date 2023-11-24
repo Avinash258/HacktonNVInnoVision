@@ -16,7 +16,14 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: '17'  # Set this to the version you need
+        java-version: '17'
+        distribution: 'adopt'  # Specify the distribution, e.g., 'adopt', 'adopt-hotspot', 'adopt-openj9'
+        architecture: 'x64'
+        check-latest: false
+        server-id: github
+        server-username: GITHUB_ACTOR
+        server-password: ${{ secrets.GITHUB_TOKEN }}
+        overwrite-settings: true
 
     - name: Run Windows command
       run: |
