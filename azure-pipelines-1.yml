@@ -3,8 +3,13 @@ trigger:
 
 pool:
      vmImage: 'windows-latest'
-
+     
 steps:
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '11'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
 - task: CmdLine@2
   inputs:
     script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
