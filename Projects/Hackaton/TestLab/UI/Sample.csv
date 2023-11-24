@@ -1,3 +1,3 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,pact,TC01_DragandDrop,Single,Failed,Firefox,Default,Any
-false,pact,TC02_Sorting,Single,Passed,Firefox,Default,Any
+true,pact,TC01_DragandDrop,Single,Failed,Edge,Default,Any
+false,pact,TC02_Sorting,Single,Passed,Chrome Headless,Default,Any
