@@ -1,0 +1,19 @@
+name: Run CMD Command
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-command:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run CMD command
+      run: |
+        # Replace the following line with your CMD command
+        cmd /c "echo Hello, World!"
