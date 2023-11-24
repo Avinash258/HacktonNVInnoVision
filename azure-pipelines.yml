@@ -1,31 +1,16 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-trigger:
-- main
-
-
-  pool: vmImage: 'ubuntu-latest'
-
-
-
-steps:
-- task: CmdLine@2
-  inputs:
-    script: 'Run.bat -run -project_location "Projects\DEMO V.03" -release "Demo" -testset "UIandAPI"'
-             
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'NUnit'
-    testResultsFiles: 'azure.xml'
-    searchFolder: 'Projects/DEMO V.03/Results/TestExecution/Demo/UIandAPI/Latest/'
-    mergeTestResults: true
-    failTaskOnFailedTests: true
-    testRunTitle: 'UI and API Demo'
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+jobs:
+- job: Linux
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - script: echo hello from Linux
+- job: macOS
+  pool:
+    vmImage: 'macOS-latest'
+  steps:
+  - script: echo hello from macOS
+- job: Windows
+  pool:
+    vmImage: 'windows-latest'
+  steps:
+  - script: echo hello from Windows
