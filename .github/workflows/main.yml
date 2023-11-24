@@ -1,4 +1,4 @@
-name: Run CMD Command
+name: Run Windows Command
 
 on:
   push:
@@ -7,13 +7,13 @@ on:
 
 jobs:
   run-command:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run CMD command
+    - name: Run Windows command
       run: |
-        # Replace the following line with your CMD command
-        cmd /c "echo Hello, World!"
+        # Replace the following line with your Windows command
+        echo "Hello, World!"
