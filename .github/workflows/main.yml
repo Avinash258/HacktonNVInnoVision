@@ -25,7 +25,7 @@ jobs:
         server-password: ${{ secrets.GITHUB_TOKEN }}
         overwrite-settings: true
 
-    - name: Run Windows command
+    - name: AssureIT
       run: |
         # Specify the full path to Run.bat if it's not in the current working directory
         .\Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"
@@ -36,3 +36,7 @@ jobs:
         name: test-results
         path: Projects/Hackaton/Results/TestExecution/UI/Sample/Latest
         
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env: 
+       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
