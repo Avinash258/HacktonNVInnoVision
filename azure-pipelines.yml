@@ -25,8 +25,8 @@ steps:
 
 - task: PublishTestResults@2
   inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/azure.xml'
+    testResultsFormat: 'NUnit'
+    testResultsFiles: '**/*.xml'
     searchFolder: '$(System.DefaultWorkingDirectory)/**/Latest'
     mergeTestResults: true
     failTaskOnFailedTests: true
