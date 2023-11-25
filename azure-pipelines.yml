@@ -15,12 +15,21 @@ steps:
     script: 'Run.bat -run -project_location "Projects\Hackaton" -release "UI" -testset "Sample"'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
 
-- task: PublishTestResults@2
+#- task: PublishTestResults@2
   inputs:
     testResultsFormat: 'NUnit'
     testResultsFiles: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/azure.xml'
     mergeTestResults: true
     failTaskOnFailedTests: true
     testRunTitle: 'UI'
-    
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/azure.xml'
+    searchFolder: '$(System.DefaultWorkingDirectory)/**/Latest'
+    mergeTestResults: true
+    failTaskOnFailedTests: true
+    failTaskOnMissingResultsFile: true
+    testRunTitle: 'AsurreIT'
 
