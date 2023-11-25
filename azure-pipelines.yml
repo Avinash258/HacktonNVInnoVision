@@ -16,12 +16,12 @@ steps:
     workingDirectory: '$(System.DefaultWorkingDirectory)'
 
 #- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'NUnit'
-    testResultsFiles: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/azure.xml'
-    mergeTestResults: true
-    failTaskOnFailedTests: true
-    testRunTitle: 'UI'
+  #inputs:
+    #testResultsFormat: 'NUnit'
+    #testResultsFiles: 'Projects/Hackaton/Results/TestExecution/UI/Sample/Latest/azure.xml'
+    #mergeTestResults: true
+    #failTaskOnFailedTests: true
+    #testRunTitle: 'UI'
 
 - task: PublishTestResults@2
   inputs:
